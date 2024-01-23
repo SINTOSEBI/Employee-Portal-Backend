@@ -16,7 +16,7 @@ employeeServer.use(router)
 
 //setup the port
 
-const port = 3000 || process.env.PORT
+const port = 3006 || process.env.PORT
 
 employeeServer.listen(port,()=>{
     console.log(`EmployeeServer running sucessfully at port number 
